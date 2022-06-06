@@ -1,0 +1,56 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+.Header
+{
+    display:flex;
+    background-color:#1F2937;
+    width: 100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+img.Donate
+{
+    height: 50px;
+    width:auto;
+}
+h2.Top-Left
+{
+    flex:3 0 auto;
+    padding:7px;
+    margin:7px;
+    justify-content: center;
+    align-items: center;
+}
+div#Links
+{
+    display: flex;
+    flex:.5 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+div#Links.Item   
+{
+    padding: 5px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+}
+div.Item
+{   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin:2px;
+}
+a
+{
+    padding:2px;
+    margin:2px;
+}
