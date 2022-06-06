@@ -4,15 +4,15 @@ body
     flex-direction: column;
     padding:0;
     margin:0;
+    flex: 1 1 auto;
 }
 .Header
 {
     display:flex;
-    background-color:#1F2937;
-    width: 100%;
-    height:100%;
+    background-color:#160f33;
     padding:0;
     margin:0;
+    flex:.5 1 auto;
 }
 img.Donate
 {
@@ -22,8 +22,8 @@ img.Donate
 h2.Top-Left
 {
     flex:3 0 auto;
-    padding:7px;
-    margin:7px;
+    padding:20px;
+    margin:20px;
     justify-content: center;
     align-items: center;
 }
@@ -53,4 +53,29 @@ a
 {
     padding:2px;
     margin:2px;
+}
+.Hero
+{
+    display:flex;
+    background-color:#160f33;
+    padding:0;
+    margin:0;
+    flex:2 1 auto;
+}
+div.Text
+{
+    flex:1 0 0 ;
+    padding:20px;
+    margin:20px;
+}
+div.Image
+{
+    flex:1 1 .5;
+}
+img.Image-own
+{
+    height:auto;
+    width:200px;
+    padding:0px 50px 0px 50px;
+    margin:0px 50px 0px 50px;
 }
